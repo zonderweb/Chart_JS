@@ -22,7 +22,7 @@ const createLineChart = (xData, yData) => {
 }
 
 // Получение данных с сервера
-axios.get('https://www.alphavantage.co/query?function=ALUMINUM&interval=monthly&apikey=IEEEHD7YKVEDV9VJ')
+axios.get('https://www.alphavantage.co/query?function=ALUMINUM&interval=monthly&apikey=demo')
   .then((response) => {
     let data = response.data.data;
     let xData = [];
